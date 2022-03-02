@@ -1,0 +1,70 @@
+
+
+li {
+   color:blue;
+}
+
+h1 {
+	color:green;
+	padding:8px 16px;
+	border: 1px solid green;
+	text-align:center;
+	text-shadow: 3px 3px 1px black;
+	margin:0;
+}
+
+
+p,span {
+	font-size: 16px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  text-shadow:5px;
+}
+#demo-id {
+	background-color: DodgerBlue;
+	border: red 2px solid;
+}
+
+.demo-class {
+	margin-left:36px;
+	background-color:#3595ff;
+}
+
+p[color] {
+	color:#00ffdd;
+}
+p[color="blue"] {
+	color:black;
+}
+p[color^="bla"] {
+	color:#7D3FBF;
+}
+
+p:hover {
+	font-size:24px;
+}
+
+
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 16px;
+  /* Google fonts 输出的 CSS */
+  /* font-family: 'Noto Serif SC', serif; */
+
+  font-family:'Zhi Mang Xing', cursive;
+  background-color: #8ECE5D;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: green solid 5px;
+}
+
+img {
+	display:block;
+	margin:0px auto;
+}
