@@ -9,7 +9,13 @@ h1 {
 	padding:8px 16px;
 	border: 1px solid green;
 	text-align:center;
-	text-shadow: 3px 3px 1px black;
+	/* 
+	*第一个值设置水平偏移值 —— 即阴影右移的像素数（负值左移）
+	*第二个值设置垂直偏移值 —— 即阴影下移的像素数（负值上移）
+	*第三个值设置阴影的模糊半径 —— 值越大产生的阴影越模糊
+	*第四个值设置阴影的基色
+	*/
+	text-shadow: 3px 3px 1px black; /* */
 	margin:0;
 }
 
@@ -65,6 +71,7 @@ body {
 }
 
 img {
+	/* 图片是内联元素，不具备块级元素的一些功能。所以为了使图像有外边距，我们必须使用 display: block 给予其块级行为 */
 	display:block;
 	margin:0px auto;
 }
