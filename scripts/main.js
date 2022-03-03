@@ -8,10 +8,10 @@ let img = document.querySelector("img");
 img.onclick= function (){
 	console.log("换个图片");
 	let src = img.getAttribute("src");
-	if(src === "images/img1.jpg"){
-		img.setAttribute("src","images/img2.jpg");
+	if(src === "images/img1.png"){
+		img.setAttribute("src","images/img2.png");
 	}else {
-		img.setAttribute("src","images/img1.jpg");
+		img.setAttribute("src","images/img1.png");
 	}
 }
 
