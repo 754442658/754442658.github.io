@@ -35,3 +35,13 @@ if(!localStorage.getItem('name')) {
   let myName = localStorage.getItem('name');
   hTitle.textContent = myName+",今天天气不错啊！";
 }
+
+let home = document.getElementById("home");
+let imgs = document.getElementById("imgs");
+
+home.onclick = function(){
+	alert("点击了首页");
+}
+imgs.onclick = function(){
+	alert("点击了图片");
+}
