@@ -2,105 +2,21 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>我的测试页面</title>
-	<link href="styles/style.css" rel="stylesheet">
-	<link href="styles/layout.css" rel="stylesheet" />
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <title>主页</title>
+  <link href="styles/index.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="box-body">
-		<div class="box-header">
-			<h1>sss标题</h1>
-		</div>
-		<div class="box-menu">
-			<div id="home">主页</div>
-			<div id="imgs">图片</div>
-			<div>图片</div>
-			<div>图片</div>
-		</div>
-		<div class="box-main">
-			<h1><a href="images/img1.png" download="异次元">下载图片</a></h1>
-			<h1>
-				<a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN"
-					download="firefox-latest-64bit-installer.exe">下载最新的 Firefox 中文版 - Windows（64位</a>
-			</h1>
-
-			<h4><a href="https://www.baidu.com" target="_blank">打开百度</a></h4>
-
-			<button>切换用户名</button>
-
-			<img src="images/img1.png" alt="我的测试页22面">
-			<p>这是一个段落哈哈哈啊啊啊 <a href="https://www.baidu.com" target="_blank">打开百度</a></p>
-			<p> ul包含的是无序号列表 ol包含的是有序号列表</p>
-
-			<p style="text-align:center;background-color:red;">标签选择器</p>
-			<span>标签选择器</span>
-
-			<li id="demo-id"> id选择器</li>
-			<p class="demo-class">类选择器</p>
-			<p color="green">属性选择器</p>
-			<p color="blue">属性选择器</p>
-			<p color="black">属性选择器</p>
-
-
-			<p>和 HTML 类似，CSS 也不是真正的编程语言，甚至不是标记语言。它是一门样式表语言，这也就是说人们可以用它来选择性地为 HTML 元素添加样式。举例来说，要选择一个 HTML
-				页面里所有的段落元素，然后将其中的文本改成红色，可以这样写 CSS：</p>
-			<ul>
-				<li>first item</li>
-				<li>second item</li>
-				<li>third item</li>
-			</ul>
-			<ul>
-				<li>first item</li>
-				<li>second item
-					<!-- Look, the closing </li> tag is not placed here! -->
-					<ul>
-						<li>second item first subitem</li>
-						<li>second item second subitem
-							<!-- Same for the second nested unordered list! -->
-							<ul>
-								<li>second item second subitem first sub-subitem</li>
-								<li>second item second subitem second sub-subitem</li>
-								<li>second item second subitem
-									<!-- Same for the second nested unordered list! -->
-									<ul>
-										<li>third item second subitem first sub-subitem</li>
-										<li>third item second subitem second sub-subitem</li>
-										<li>third item second subitem third sub-subitem</li>
-									</ul>
-								</li>
-							</ul>
-						</li> <!-- Closing </li> tag for the li that contains the third unordered list -->
-						<li>second item third subitem</li>
-					</ul>
-				</li> <!-- Here is the closing </li> tag -->
-				<li>third item</li>
-			</ul>
-
-			<ul>
-				<li>second item
-					<ol type="1" start="6">
-						<li>second item first subitem</li>
-						<li>second item second subitem</li>
-						<li>second item third subitem</li>
-					</ol>
-				</li>
-			</ul>
-		</div>
-		<div class="box-right">
-		</div>
-		<div class="box-footer">
-			本站由*****提供
-		</div>
-	</div>
-
-
-
-	<script src="scripts/main.js" defer></script>
+  <div class="box-body">
+    <div class="tile" draggable="true" title="youtube" data-url="https://www.youtube.com/">
+      <div class="tile-icon">
+        <img draggable="false" alt="" src="assets/youtube.png">
+      </div>
+      <span class="tile-title"> youtube </span>
+    </div>
+  </div>
+  <script src="script/main.js" defer></script>
 </body>
 
 </html>
